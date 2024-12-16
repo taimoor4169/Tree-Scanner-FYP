@@ -13,7 +13,7 @@ Tree Scanner is a comprehensive mobile solution designed for tree species identi
 
 The application utilizes a robust backend powered by deep learning models such as ResNet for disease prediction and species identification. Users upload an image of a leaf, and the app processes it through the model to generate predictions. Additionally, it ensures the accuracy and usability of results by detecting invalid inputs, such as non-leaf images, and notifying users with appropriate error messages.
 
-**Project Goals**
+**Project Goals:**
 
 Provide accurate species identification and plant disease detection.
 Implement a user-friendly interface for seamless interaction.
@@ -30,6 +30,7 @@ Data preprocessed and augmented for improved model generalization.
 Algorithms and Models
 
 **ResNet-9 Architecture:**
+
 Used for disease detection.
 Processes input images and provides probabilities and disease labels.
 **Llama API Integration:**
@@ -38,6 +39,7 @@ Provides detailed species identification through text-based results.
 Analyzes image context for accurate predictions.
 
 **Future Work:**
+
 Expand the database to include more plant species and diseases.
 Enhance the mobile app with real-time scanning features using AR (Augmented Reality).
 Integrate geotagging to provide region-specific plant insights.
